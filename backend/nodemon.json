@@ -1,0 +1,8 @@
+{
+    "env": {
+        "DB_USER": "raidi",
+        "DB_PASSWORD": "Kakarot1",
+        "DB_NAME": "places",
+        "locationiqAPI": "pk.142a3958a431be026bb70a26ac6dd76d"
+    }
+}
