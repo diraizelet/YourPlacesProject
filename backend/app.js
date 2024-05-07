@@ -48,12 +48,8 @@ app.use((error, req, res, next) => {
 });
 
 mongoose
-  .connect(`mongodb+srv://raidi:Kakarot1@cluster0.gv6e8kk.mongodb.net/places?retryWrites=true&w=majority&appName=Cluster0`,
-  { 
-    useNewUrlParser: true, 
-    useUnifiedTopology: true, 
-    useCreateIndex: true 
-  }
+  .connect(
+    `mongodb+srv://raidi:Kakarot1@cluster0.gv6e8kk.mongodb.net/places?retryWrites=true&w=majority&appName=Cluster0`
   )
   .then(() => {
     app.listen(5000);
