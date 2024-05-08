@@ -11,7 +11,7 @@
 <li class="has-line-data" data-line-start="13" data-line-end="15"><strong>Connect</strong>: Join our community of fellow travelers and share your own experiences and recommendations.</li>
 </ul>
 <h2 class="code-line" data-line-start="15" data-line-end="16"><a id="Getting_Started_15"></a>Getting Started</h2>
-<p class="has-line-data" data-line-start="17" data-line-end="18">To get started with Wanderlust Blog, simply visit our website at <a href="https://celadon-crumble-a92bc4.netlify.app/">celadon-crumble.netlify.app</a> and start exploring! You can search for specific destinations, browse by category, or check out our latest articles for inspiration.</p>
+<p class="has-line-data" data-line-start="17" data-line-end="18">To get started with Wanderlust Blog, simply visit our website at <a href="[https://celadon-crumble-a92bc4.netlify.app/](https://soft-cendol-6aad38.netlify.app/)">celadon-crumble.netlify.app</a> and start exploring! You can search for specific destinations, browse by category, or check out our latest articles for inspiration.</p>
 <h2 class="code-line" data-line-start="20" data-line-end="21"><a id="Feedback_20"></a>Feedback</h2>
 <p class="has-line-data" data-line-start="22" data-line-end="23">We’re always looking for ways to improve Wanderlust Blog. If you have any feedback, suggestions, or just want to say hello, feel free to <a href="/cdn-cgi/l/email-protection#89ffe8fbfce7fafcfbece7bbb9b9bac9eee4e8e0e5a7eae6e4">contact us</a>.</p>
 <h2 class="code-line" data-line-start="24" data-line-end="25"><a id="License_24"></a>License</h2>
