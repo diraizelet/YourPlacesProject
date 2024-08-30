@@ -50,7 +50,7 @@ const NewPlace = () => {
       formData.append('description', formState.inputs.description.value);
       formData.append('address', formState.inputs.address.value);
       formData.append('image', formState.inputs.image.value);
-      await sendRequest('https://yourplacesproject.onrender.com/places', 'POST', formData, {
+      await sendRequest('api/places', 'POST', formData, {
         Authorization: 'Bearer ' + auth.token
       });
       history.push('/');

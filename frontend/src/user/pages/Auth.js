@@ -70,7 +70,7 @@ const Auth = () => {
     if (isLoginMode) {
       try {
         const responseData = await sendRequest(
-          'https://yourplacesproject.onrender.com/users/login',
+          'api/users/login',
           'POST',
           JSON.stringify({
             email: formState.inputs.email.value,
@@ -90,7 +90,7 @@ const Auth = () => {
         formData.append('password', formState.inputs.password.value);
         formData.append('image', formState.inputs.image.value);
         const responseData = await sendRequest(
-          'https://yourplacesproject.onrender.com/users/signup',
+          'api/users/signup',
           'POST',
           formData
         );
@@ -105,7 +105,7 @@ const Auth = () => {
       <ErrorModal error={error} onClear={clearError} />
       <Card className="authentication">
         {isLoading && <LoadingSpinner asOverlay />}
-        <h2>Login Required</h2>
+        <h2>{isLoginMode ? 'Login Required' : 'Sign Up'}</h2>
         <hr />
         <form onSubmit={authSubmitHandler}>
           {!isLoginMode && (

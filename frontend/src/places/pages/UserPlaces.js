@@ -16,7 +16,7 @@ const UserPlaces = () => {
     const fetchPlaces = async () => {
       try {
         const responseData = await sendRequest(
-          `https://yourplacesproject.onrender.com/places/user/${userId}`
+          `api/places/user/${userId}`
         );
         setLoadedPlaces(responseData.places);
       } catch (err) {}
